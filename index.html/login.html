@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Login</h1>
+            <form>
+                <div class="textbox">
+                    <input type="text" placeholder="Username" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<style>/* Resetting default margin and padding */
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4; /* Light gray background */
+    }
+    
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .login-box {
+        background-color: #ffffff; /* White background for the login box */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        max-width: 300px;
+        width: 100%;
+    }
+    
+    .login-box h1 {
+        margin: 0;
+        padding-bottom: 20px;
+        font-size: 24px;
+        color: #333; /* Dark gray text */
+    }
+    
+    .textbox {
+        margin-bottom: 20px;
+    }
+    
+    .textbox input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd; /* Light gray border */
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        background-color: #333; /* Dark gray background for button */
+        color: #fff; /* White text */
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #555; /* Slightly lighter gray on hover */
+    }
+    </style>
